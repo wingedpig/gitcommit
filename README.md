@@ -35,18 +35,22 @@ export CLAUDE_API_KEY=your_api_key_here
 ## Usage
 
 ### Show help
+
 gitcommit -help
 
 ### Commit staged changes
+
 gitcommit
 
 ### Commit all changes (including unstaged)
+
 gitcommit -a
+
 When run, gitcommit will:
 
-Ask for your initial commit message
-Analyze the changes and suggest an improved message
-Let you accept, edit, or reject the suggestion
+- Ask for your initial commit message
+- Analyze the changes and suggest an improved message
+- Let you accept, edit, or reject the suggestion
 
 ## License
 
