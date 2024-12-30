@@ -34,13 +34,13 @@ export CLAUDE_API_KEY=your_api_key_here
 
 ## Usage
 
-# Show help
+### Show help
 gitcommit -help
 
-# Commit staged changes
+### Commit staged changes
 gitcommit
 
-# Commit all changes (including unstaged)
+### Commit all changes (including unstaged)
 gitcommit -a
 When run, gitcommit will:
 
